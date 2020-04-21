@@ -3,7 +3,9 @@ import { UserService } from '@app/user/user.service';
 
 @Injectable()
 export class AuthService {
-  constructor(private usersService: UserService) {}
+  constructor(
+		private usersService: UserService
+	) {}
 
   async validateUser(username: string, pass: string): Promise<any> {
     const user = await this.usersService.findOne(username);
@@ -12,5 +14,6 @@ export class AuthService {
       return result;
     }
     return null;
-  }
+	}
+	
 }
