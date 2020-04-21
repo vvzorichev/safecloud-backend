@@ -11,4 +11,7 @@ export class FileService {
     private filesRepository: Repository<File>,
 	) {}
 
+	async create(file: File): Promise<void> {
+    await this.filesRepository.save(file);
+  }
 }
