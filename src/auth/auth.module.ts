@@ -4,6 +4,7 @@ import { PassportModule } from '@nestjs/passport';
 
 import { AuthService } from '@app/auth/auth.service';
 import { UserModule } from '@app/user/user.module';
+
 @Module({
 	imports: [UserModule, PassportModule],
   providers: [AuthService, LocalStrategy]

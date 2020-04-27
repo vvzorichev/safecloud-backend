@@ -15,5 +15,4 @@ export class FileController {
 	uploadFile(@UploadedFile() file) {
 		console.log(file);
 	}
-
 }

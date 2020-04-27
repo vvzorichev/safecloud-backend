@@ -39,8 +39,7 @@ if (process.env.NODE_ENV === AppEnvironment.DEVELOPMENT) {
 		UserModule,
     LoggerModule,
     ErrorsFilterModule,
-		ConfigModule,
-		AuthModule
+		ConfigModule
   ],
 })
 export class AppModule implements NestModule {
