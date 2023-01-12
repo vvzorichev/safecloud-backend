@@ -25,7 +25,7 @@
     "@types/node": "^10.12.18",
     "cache-manager": "^2.9.1",
     "class-transformer": "^0.2.3",
-    "class-validator": "^0.9.1",
+    "class-validator": "^0.14.0",
     "json-stringify-safe": "^5.0.1",
     "minimist": "^1.2.5",
     "minio": "^7.0.12",
